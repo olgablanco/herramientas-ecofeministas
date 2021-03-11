@@ -1,0 +1,625 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.imgresponsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.limpiar {
+    clear: both;
+}
+
+.divacio {
+    height: 60px;
+}
+
+/*estilostextos*/
+p {
+    font-family: 'work_sansregular';
+    font-size: 18px;
+    margin: 0px;
+}
+
+.pblanco {
+    font-family: 'work_sansregular';
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+}
+
+.pbold {
+    font-family: 'work_sansbold';
+    font-size: 18px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'rubikregular';
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h2resaltadoamarillo {
+    font-family: 'rubikregular';
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #fdc214;
+    width: 300px;
+    text-align: center;
+}
+
+.h2rubik30 {
+    font-family: 'rubikbold';
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+
+.textodestacado {
+    font-family: 'work_sansmedium';
+    font-size: 24px;
+    color: black;
+}
+
+.textodestacado2 {
+    font-family: 'work_sansbold';
+    font-size: 24px;
+    color: black;
+}
+
+.titulosection {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'andale_monoregular';
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.titulocabeceraherram1 {
+    width: 40%;
+    font-family: 'Rubikregular';
+    font-size: 1.5vw;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+.titulocabeceraherram2 {
+    width: 50%;
+    font-family: 'Rubikregular';
+    font-size: 1.5vw;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+.enlacegeneral{
+    text-decoration: none;
+    font-family:'work_sansbold';
+    color:#862d87;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5ase;
+}
+.enlacegeneral:hover{
+    color:black;
+}
+
+/*menu*/
+#menupeque {
+    display: none;
+}
+
+#menugrande {
+    width: 100%;
+    background-color: #9b568d;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+}
+
+#logomenu {
+    width: 13%;
+    float: left;
+    height: 60px;
+}
+
+#logo-gp1 {
+    width: 150px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    margin: auto;
+    z-index: 2000;
+}
+
+#menucentrar {
+    width: 78%;
+    float: right;
+}
+
+#menucentrar ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+#menucentrar a {
+    width: 20%;
+    height: 60px;
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    float: left;
+    font-family: 'andale_monoregular';
+    font-size: 14px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#menucentrar a:hover {
+    color: #32c200;
+}
+
+/*cabeceras*/
+#cabecera {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+#cabecera h1 {
+    font-size: 2.1vw;
+    margin-left: 42.5%;
+    margin-top: 25%;
+    font-family: 'rubikregular';
+}
+
+#logoecofem {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#cabeceraherrm1 {
+    width: 100%;
+    height: auto;
+}
+#cabeceraherrm2 {
+    width: 100%;
+    background-color: #fbded8;
+}
+
+#cabeceraimageherram1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-image: url(../imagenes/escaladora-greenpeace.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 16%;
+}
+#cabeceraimageherram2 {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-image: url(../imagenes/chica-activista.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 16%;
+}
+#cabeceraimageherram3 {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-image: url(../imagenes/activista-micro.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 15.1%;
+}
+#cabeceraimageherram4 {
+    width: 50%;
+    height: auto;
+    float: left;
+    background-image: url(../imagenes/voluntariado-gp.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 15.1%;
+}
+
+#cabecerafondoherram1 {
+    width: 50%;
+    background-color: #e8dde8;
+    height: auto;
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 2.4%;
+}
+#cabecerafondoherram2 {
+    width: 50%;
+    background-color: #fbded8;
+    height: auto;
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 2.4%;
+}
+#cabecerafondoherram3 {
+    width: 50%;
+    background-color: #e2f2ec;
+    height: auto;
+    float: left;
+    padding-bottom: 4%;
+    padding-top: 2.4%;
+}
+#cabecerafondoherram4 {
+    width: 50%;
+    background-color: #fff3d0;
+    height: auto;
+    float: left;
+    padding-bottom: 2.2%;
+    padding-top: 2.4%;
+}
+
+.iconocabecera {
+    width: 30%;
+    margin-left :20%;
+    display: block;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+
+/*secciones*/
+.secfondomorado {
+    width: 100%;
+    background-color: #e8dde8;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.secfondoamarillo {
+    width: 100%;
+    background-color: #fff3d0;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.secblanco {
+    width: 100%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    background-color: white;
+}
+.secblanco2 {
+    width: 100%;
+    padding-top: 2%;
+    background-color: white;
+}
+.secconfoto {
+    width: 100%;
+    background-image: url(../imagenes/haz.jpg);
+     background-position: center center;
+    background-size: cover;   
+}
+.secfondonaranja {
+    width: 100%;
+    background-color: #fbded8;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+.secfondoazul {
+    width: 100%;
+    background-color: #e2f2ec;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+/*noticias*/
+
+.noticia1 {
+    width: 43%;
+    padding: 2.5%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-left: 5%;
+    margin-right: 2%;
+    float:left;
+    margin-top: 2%;
+}
+
+.noticia2 {
+    width: 45%;
+    background-color: #e8dde8;
+    padding: 2.5%;
+    float:left;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.noticia3 {
+    width: 100%;
+    background-color: #f39b8a;
+    padding: 4%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.noticia4 {
+    width: 100%;
+    background-color: #f39b8a;  
+}
+.cajaimagen {
+    width: 32%;
+    float: left;
+}
+.cajaimagen3 {
+    width: 25%;
+    float: left;
+}
+
+.cajatexto {
+    width: 60%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+.cajaimagen2 {
+    width: 50%;
+    float: right;
+    background-image: url(../imagenes/mani-feminista.jpg);
+     background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.cajatexto2 {
+    width: 40%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+/*cajascontainer*/
+.cajacontainer {
+    width: 90%;
+    margin: auto;
+}
+.cajacontainer1 {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 1%;
+}
+.cajacontainer2 {
+    width: 60%;
+    margin: auto;
+}
+.cajacontainer3 {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(147,190,162, 0.8);
+    padding: 2%;
+    
+}
+
+
+/*seccionherramientas*/
+.columnaherram {
+    width: 22%;
+    text-align: center;
+    margin-right: 4%;
+    float: left;
+    margin-top: 2%
+}
+
+.columnaherram2 {
+    width: 22%;
+    text-align: center;
+    float: left;
+    margin-top: 2%
+}
+
+.columnaherram:hover {
+    cursor: pointer;
+}
+
+.columnaherram2:hover {
+    cursor: pointer;
+}
+
+#icono {
+    width: 60%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#icono:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.h3icono1 {
+    font-family: 'Rubikregular';
+    color: #862d87;
+    font-size: 20px;
+}
+
+.h3icono2 {
+    font-family: 'Rubikregular';
+    color: #eb593b;
+    font-size: 20px;
+}
+
+.h3icono3 {
+    font-family: 'Rubikregular';
+    color: #6ebfa0;
+    font-size: 20px;
+}
+
+.h3icono4 {
+    font-family: 'Rubikregular';
+    color: #fdc214;
+    font-size: 20px;
+}
+
+/*cajascabeceras*/
+
+.cajaaquien {
+    width: 36%;
+    float: left;
+    background-color: #b681b7;
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 6%;
+    margin-top: 2%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.cajaaquien2 {
+    width: 36%;
+    float: left;
+    background-color: #eb593b;
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 6%;
+    margin-top: 2%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.cajaaquien3 {
+    width: 36%;
+    float: left;
+    background-color: #6ebfa0;
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 6%;
+    margin-top: 2%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.cajaaquien4 {
+    width: 36%;
+    float: left;
+    background-color: #fdc214;
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 6%;
+    margin-top: 2%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.cajaaquien h2 {
+    font-family: 'andale_monoregular';
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cajaaquien2 h2 {
+    font-family: 'andale_monoregular';
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cajaaquien4 h2 {
+    font-family: 'andale_monoregular';
+    font-size: 30px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.cajaobjetivo {
+    width: 55%;
+    float: left;
+    padding: 2%;
+}
+
+
+
+/*footer*/
+
+#piepagina {
+    width: 100%;
+    background-color: #e8e380;
+    height: 100px;
+}
+
+#textopie {
+    width: 64%;
+    float: left;
+    padding-top: 2%;
+}
+
+#textopie p {
+    font-family: 'Rubikbold';
+    font-size: 15px;
+}
+
+#logotextopie {
+    width: 150px;
+    padding-top: 20px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logotextopie h4 {
+    font-family: 'Rubikregular';
+    margin-top: 0px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#logopiepagina {
+    width: 140px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#enlaceemail {
+    text-decoration: none;
+    color: grey;
+}
+
+#enlaceemail:hover {
+    color: black;
+}
+
