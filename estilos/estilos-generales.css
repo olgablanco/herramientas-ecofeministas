@@ -95,7 +95,6 @@ h2 {
     margin: auto;
     margin-bottom: 3%;
     margin-left: 20%;
-    margin: 0px;
 }
 .titulocabeceraherram2 {
     width: 50%;
@@ -103,8 +102,7 @@ h2 {
     font-size: 1.5vw;
     margin: auto;
     margin-bottom: 3%;
-    margin-left: 20%;
-    margin: 0px;
+    margin-left: 20%;   
 }
 .enlacegeneral{
     text-decoration: none;
