@@ -244,6 +244,12 @@
 
 #textopie {
     padding-top: 4%;
+    width: 100%;
+    text-align: center;
+}
+#logotextopie {
+    float: none;
+    margin: auto;
 }
 
 

@@ -404,10 +404,6 @@ h2 {
     width: 90%;
     margin: auto;
 }
-.cajacontainer5 {
-    width: 95%;
-    margin: auto;
-}
 .cajacontainer1 {
     width: 85%;
     margin: auto;
@@ -586,7 +582,7 @@ h2 {
 }
 
 #textopie {
-    width: 64%;
+    width: 58%;
     float: left;
     padding-top: 2%;
 }
