@@ -243,13 +243,16 @@
 }
 
 #textopie {
-    padding-top: 4%;
+    padding-top: 10%;
     width: 100%;
     text-align: center;
 }
 #logotextopie {
     float: none;
     margin: auto;
+}
+#piepagina {
+    height: 200px;
 }
 
 
