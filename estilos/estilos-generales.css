@@ -49,6 +49,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .h2resaltadoamarillo {
     font-family: 'rubikregular';
     font-size: 24px;
@@ -96,25 +97,28 @@ h2 {
     margin-bottom: 3%;
     margin-left: 20%;
 }
+
 .titulocabeceraherram2 {
     width: 50%;
     font-family: 'Rubikregular';
     font-size: 1.5vw;
     margin: auto;
     margin-bottom: 3%;
-    margin-left: 20%;   
+    margin-left: 20%;
 }
-.enlacegeneral{
+
+.enlacegeneral {
     text-decoration: none;
-    font-family:'work_sansbold';
-    color:#862d87;
+    font-family: 'work_sansbold';
+    color: #862d87;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5ase;
 }
-.enlacegeneral:hover{
-    color:black;
+
+.enlacegeneral:hover {
+    color: black;
 }
 
 /*menu*/
@@ -205,6 +209,7 @@ h2 {
     width: 100%;
     height: auto;
 }
+
 #cabeceraherrm2 {
     width: 100%;
     background-color: #fbded8;
@@ -219,6 +224,7 @@ h2 {
     background-size: cover;
     padding: 16%;
 }
+
 #cabeceraimageherram2 {
     width: 50%;
     height: auto;
@@ -228,6 +234,7 @@ h2 {
     background-size: cover;
     padding: 16%;
 }
+
 #cabeceraimageherram3 {
     width: 50%;
     height: auto;
@@ -237,6 +244,7 @@ h2 {
     background-size: cover;
     padding: 15.1%;
 }
+
 #cabeceraimageherram4 {
     width: 50%;
     height: auto;
@@ -255,6 +263,7 @@ h2 {
     padding-bottom: 4%;
     padding-top: 2.4%;
 }
+
 #cabecerafondoherram2 {
     width: 50%;
     background-color: #fbded8;
@@ -263,6 +272,7 @@ h2 {
     padding-bottom: 4%;
     padding-top: 2.4%;
 }
+
 #cabecerafondoherram3 {
     width: 50%;
     background-color: #e2f2ec;
@@ -271,6 +281,7 @@ h2 {
     padding-bottom: 4%;
     padding-top: 2.4%;
 }
+
 #cabecerafondoherram4 {
     width: 50%;
     background-color: #fff3d0;
@@ -282,7 +293,7 @@ h2 {
 
 .iconocabecera {
     width: 30%;
-    margin-left :20%;
+    margin-left: 20%;
     display: block;
     text-align: center;
     margin-top: 8%;
@@ -297,43 +308,55 @@ h2 {
     padding-top: 1%;
     padding-bottom: 3%;
 }
+
 .secfondoamarillo {
     width: 100%;
     background-color: #fff3d0;
     padding-top: 1%;
     padding-bottom: 3%;
 }
+
 .secblanco {
     width: 100%;
     padding-bottom: 4%;
     padding-top: 2%;
     background-color: white;
 }
+
 .secblanco2 {
     width: 100%;
     padding-top: 2%;
     background-color: white;
 }
+
 .secconfoto {
     width: 100%;
     background-image: url(../imagenes/haz.jpg);
-     background-position: center center;
-    background-size: cover;   
+    background-position: center center;
+    background-size: cover;
 }
+
 .secfondonaranja {
     width: 100%;
     background-color: #fbded8;
     padding-top: 1%;
     padding-bottom: 3%;
 }
+
 .secfondoazul {
     width: 100%;
     background-color: #e2f2ec;
     padding-top: 1%;
     padding-bottom: 3%;
 }
-/*noticias*/
 
+.secguia {
+    width: 100%;
+    background-color: #fdc214;
+    padding: 4%;
+}
+
+/*noticias*/
 .noticia1 {
     width: 43%;
     padding: 2.5%;
@@ -342,7 +365,7 @@ h2 {
     border-color: lightgray;
     margin-left: 5%;
     margin-right: 2%;
-    float:left;
+    float: left;
     margin-top: 2%;
 }
 
@@ -350,10 +373,11 @@ h2 {
     width: 45%;
     background-color: #e8dde8;
     padding: 2.5%;
-    float:left;
+    float: left;
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
 .noticia3 {
     width: 100%;
     background-color: #f39b8a;
@@ -361,14 +385,17 @@ h2 {
     margin-bottom: 2%;
     margin-top: 2%;
 }
+
 .noticia4 {
     width: 100%;
-    background-color: #f39b8a;  
+    background-color: #f39b8a;
 }
+
 .cajaimagen {
     width: 32%;
     float: left;
 }
+
 .cajaimagen3 {
     width: 25%;
     float: left;
@@ -380,20 +407,27 @@ h2 {
     margin-left: 3%;
     margin-bottom: 1%;
 }
+
 .cajaimagen2 {
     width: 50%;
     float: right;
     background-image: url(../imagenes/mani-feminista.jpg);
-     background-position: center center;
+    background-position: center center;
     background-size: cover;
     height: 400px;
 }
 
 .cajatexto2 {
     width: 40%;
-    float:left;
+    float: left;
     margin-left: 10%;
     margin-top: 3%;
+}
+
+#cajapdf {
+    background-color: #f9f2f9;
+    padding: 2%;
+    text-align: center;
 }
 
 
@@ -402,6 +436,7 @@ h2 {
     width: 90%;
     margin: auto;
 }
+
 .cajacontainer1 {
     width: 85%;
     margin: auto;
@@ -412,16 +447,18 @@ h2 {
     align-items: flex-start;
     margin-bottom: 1%;
 }
+
 .cajacontainer2 {
     width: 60%;
     margin: auto;
 }
+
 .cajacontainer3 {
     width: 60%;
     margin: auto;
-    background-color: rgba(147,190,162, 0.8);
+    background-color: rgba(147, 190, 162, 0.8);
     padding: 2%;
-    
+
 }
 
 
@@ -502,6 +539,7 @@ h2 {
     -moz-border-radius: 50px;
     border-radius: 50px;
 }
+
 .cajaaquien2 {
     width: 36%;
     float: left;
@@ -515,6 +553,7 @@ h2 {
     -moz-border-radius: 50px;
     border-radius: 50px;
 }
+
 .cajaaquien3 {
     width: 36%;
     float: left;
@@ -528,6 +567,7 @@ h2 {
     -moz-border-radius: 50px;
     border-radius: 50px;
 }
+
 .cajaaquien4 {
     width: 36%;
     float: left;
@@ -549,6 +589,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .cajaaquien2 h2 {
     font-family: 'andale_monoregular';
     font-size: 30px;
@@ -556,6 +597,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .cajaaquien4 h2 {
     font-family: 'andale_monoregular';
     font-size: 30px;
@@ -563,6 +605,7 @@ h2 {
     margin-top: 0px;
     margin-bottom: 20px;
 }
+
 .cajaobjetivo {
     width: 55%;
     float: left;
@@ -621,19 +664,4 @@ h2 {
 
 #enlaceemail:hover {
     color: black;
-}
-
-
-
-
-#cajapdf {
-    background-color: #f9f2f9;
-    padding: 2%;
-    text-align: center;
-}
-
-.secguia {
-    width: 100%;
-background-color: #fdc214;
-    padding: 4%;
 }
