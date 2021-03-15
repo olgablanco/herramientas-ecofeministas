@@ -31,7 +31,7 @@
 #menupeque {
     display: block;
     width: 100%;
-    height: 7%;
+    height: 60px;
     overflow: hidden;
     position: fixed;
     z-index: 200;
