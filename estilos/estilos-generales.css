@@ -404,6 +404,10 @@ h2 {
     width: 90%;
     margin: auto;
 }
+.cajacontainer5 {
+    width: 95%;
+    margin: auto;
+}
 .cajacontainer1 {
     width: 85%;
     margin: auto;
@@ -593,10 +597,10 @@ h2 {
 }
 
 #logotextopie {
-    width: 150px;
+    width: 130px;
     padding-top: 20px;
-    float: right;
     display: flex;
+    float: right;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -624,4 +628,6 @@ h2 {
 #enlaceemail:hover {
     color: black;
 }
+
+
 
